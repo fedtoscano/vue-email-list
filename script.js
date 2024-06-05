@@ -1,6 +1,5 @@
 
 
-emailsToShow=[]
 const mailListEL = document.getElementById('mail-list');
 
 for (let index = 0; index < 10; index++) {
@@ -14,9 +13,5 @@ for (let index = 0; index < 10; index++) {
             mailListEL.appendChild(newLi)
         
     })
-
-//     emailsToShow.push(result.response)
-
-// 
 }
 
